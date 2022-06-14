@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  height: 300px;
+
+  /* flex-wrap: wrap; */
+  border: 5px solid red;
+
+  /* align-items: center; */
+  /*   justify-content: center;
+
+  align-content: space-between; */
+
+  flex-direction: column;
+}
+
+li {
+  /* width: 100px; */
+  background-color: beige;
+}
+
+li:nth-child(2n) {
+  background-color: coral;
+}
+
+li:nth-child(2) {
+  /* flex: 0 0 200px; */
+}
+
+/* li:nth-child(3) {
+  flex-basis: 300px;
+}
+ */
